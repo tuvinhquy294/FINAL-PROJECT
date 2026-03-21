@@ -1,8 +1,6 @@
 # FINAL-PROJECT
 FINAL PROJECT
 
-Link: https://colab.research.google.com/drive/1wJyLCccvzOCRbD7Kx_whl2ru1PpFOloF#scrollTo=q-LvrKvnzQ8l
-
 Recruitment & Hiring Decision Analysis
 Project Overview
 
@@ -40,3 +38,6 @@ Key Insights
 Interview Score is the strongest predictor of hiring decisions
 Skills Score is more important than academic performance (CGPA)
 Selection rates vary significantly across job roles
+
+
+Link: https://colab.research.google.com/drive/1wJyLCccvzOCRbD7Kx_whl2ru1PpFOloF#scrollTo=q-LvrKvnzQ8l
