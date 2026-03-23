@@ -1,43 +1,54 @@
-# FINAL-PROJECT
-FINAL PROJECT
+Retail Sales & Customer Behavior Analysis
 
-Recruitment & Hiring Decision Analysis
-Project Overview
-
-This project analyzes a recruitment dataset to uncover the key factors influencing hiring decisions. Using data analysis and machine learning techniques, the study evaluates how candidate attributes such as academic performance, experience, and assessment scores impact the final selection outcome.
-
-The goal is to provide data-driven insights that can help organizations improve their hiring strategies and decision-making processes.
-
-Objectives: 
-Identify the most important factors affecting hiring decisions
-Analyze selection rates across roles and companies
-Evaluate the impact of skills, interview performance, and experience
-Detect potential bias in hiring (gender, university)
-Build a predictive model to estimate candidate success
-
-Dataset Description
-
-The dataset includes candidate-level information:
-- CGPA – Academic performance
-- Experience – Years of work experience
-- Skills Score – Technical assessment score
-- Interview Score – Interview performance score
-- Gender – Candidate gender
-- University – Candidate’s university
-- Job Applied – Role applied for
-- Company – Hiring company
-- Final Decision – Selected / Rejected
-
-Tools & Technologies
-- Python (Pandas, NumPy)
-- Data Visualization (Matplotlib, Seaborn)
-- Machine Learning (Scikit-learn)
-- Jupyter Notebook / Google Colab
-  
-Key Insights
-Interview Score is the strongest predictor of hiring decisions
-Skills Score is more important than academic performance (CGPA)
-Selection rates vary significantly across job roles
+- Overview
+This dataset contains realistic sales, pricing, and consumer data for sports footwear from 2018 to 2026. It covers multiple global brands (Nike, Adidas, Puma, Reebok, ASICS, New Balance).
+- Objectives
+The goal of this project is to analyze sales performance, pricing strategies, and customer behavior to generate actionable insights that help improve revenue, optimize pricing, and enhance customer satisfaction.
 
 
-Link: https://colab.research.google.com/drive/1wJyLCccvzOCRbD7Kx_whl2ru1PpFOloF#scrollTo=q-LvrKvnzQ8l
+Key Research Questions:
+1. Which products and categories generate the highest revenue?
+2. What are the top-performing brands and models?
+3. How does sales vary across countries?
+4. How do discounts affect units sold and revenue?
+5. Is there an optimal discount range that maximizes profit?
+6. Which income group contributes the most revenue?
+7. How does customer rating impact sales performance?
+8. Are there differences in purchasing behavior by gender?
+9. Which sales channel performs better (online vs offline)?
+10. What payment methods are most popular and profitable?
+    
+- Dataset Description
++ The dataset contains transactional sales data with 18 columns, including:
++ Order details: order_id, order_date
++ Product info: brand, model_name, category, size, color, gender
++ Pricing: base_price_usd, discount_percent, final_price_usd
++ Sales metrics: units_sold, revenue_usd
++ Customer info: country, customer_income_level, customer_rating
++ Channel & payment: sales_channel, payment_method
+
+Methodology
+1. Data Cleaning
+Check missing values
+Remove duplicates
+Standardize categorical variable
+
+2. Exploratory Data Analysis (EDA)
+Descriptive statistics
+Correlation analysis
+Trend analysis over time
+3. Behavioral Analysis
+Use Power BI and Python (Matplotlib, Seaborn) to build:
+Sales trends
+Category performance
+Customer segmentation charts
+4. Give insights
+Identify patterns, drivers, and anomalies
+Translate findings into business recommendations
+
+Tools and Technologies
+- Excel – Data cleaning
+- Python – Data processing, Visualization
+- Power BI – Visualization
+Data
+- Dataset
